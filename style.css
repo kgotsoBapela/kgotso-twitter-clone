@@ -1,0 +1,27 @@
+
+*{
+    /* background-color: red; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.btn-primary{ 
+    background-color: #1d9bf0;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+}
+
+.col, .col-6
+{
+    cursor: pointer;
+    height: 100vh;
+
+    border-style: solid;
+}
+.sidebar{
+    width: 200px;
+}
+
