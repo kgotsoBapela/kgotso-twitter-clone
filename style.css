@@ -24,4 +24,36 @@
 .sidebar{
     width: 200px;
 }
+.nav-item{
+    color: red;
+    padding-right: 100px;
+}
+.nav-item:last-child{
+    margin-top: 50vh;
+    color: black;
+    font-size: 16px;
+}
+.active{
+    font-weight: bold;
+}
 
+span{
+    font-size: 16px;
+}
+img{
+    border-radius: 50%;
+}
+.middle-nav{
+    background-color: red;
+    height: 53px;
+    width: 100%;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    /* padding: 0 32px; */
+}
+.right-icon{
+    right: 50%;
+}
